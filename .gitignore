@@ -1,0 +1,4 @@
+/sim
+*.pyc
+/login/migrations/
+/db.sqlite3
