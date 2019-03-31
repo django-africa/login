@@ -14,6 +14,16 @@
     <title>Just login!</title>
   </head>
   <body>
+  <nav>
+    <div class="nav-wrapper pink darken-1">
+      <a href="{% url 'home' %}" class="brand-logo"><i class="material-icons">person_pin</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="{% url 'login' %}">login</a></li>
+        <li><a href="badges.html">Signup</a></li>
+        <li><a href="collapsible.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
   {% block heading %}
       <h1>Django-Africa demo for login!</h1>
   {% endblock heading %}
